@@ -119,3 +119,40 @@ img {
   background-image: url(images/banner.jpg);
   background-size: cover;
 }
+
+.float-image {
+  float: left;
+  margin-right; 15px;
+  margin-bottom:15px;
+}
+
+<div class="column">
+ <h2>Column 1<h2>
+ <p>I'm the left column!</p>
+ </div>
+
+ <div class="column">
+ <h2>Column 2</h2>
+ <p>I'm the right column!</p>
+ </div>
+
+ .column {
+   width: 50%;
+   float: left
+ }
+
+ .column {
+   float: left
+ }
+
+ .column-1 {
+   width:30%;
+ }
+
+ .column-2 {
+   width: 70%
+ }
+
+img {
+  float: left;
+}
