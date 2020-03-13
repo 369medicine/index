@@ -1,0 +1,121 @@
+*p  {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+}
+  /* border: 1px solid red; */
+
+header {
+  border-bottom: 5px solid-grey;
+}
+
+body{
+  background-color: white;
+  color: maroon;
+  font-family: Helvetica;
+  font-size: 14px;
+  margin: 10px;
+  background-color: aqua;
+  background-image: url("images/morgan3.jpg"); /* The image used */
+  background-position: center; /*center the image */
+  height: 75; /* you must set a specific height */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  color: black;
+  font-size: 36px;
+}
+
+h1 {
+  text-align: justify;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+}
+
+h3 {
+  color: green;
+  font-size: 18px;
+  font-family: `Noto Serif TC`, Georgia,serif;
+}
+
+/* margin-bottom: 20px; */
+h1, h2, h3 {
+  font-weight: normal;
+  font-style: italic;
+}
+p {
+  line-height: 3;
+}
+p {
+  margin: 15px 0;
+}
+
+ul,ol {
+    margin: 15px 0;
+  }
+}
+header h1 {
+  /* text-align: right; */
+}
+a {
+  color: red;
+  /* text-decoration: none; */
+}
+a {
+  /* text-decoration: none; */
+  color: red;
+}
+a:hover {
+  /* text-decoration: underline; */
+}
+a:visited {
+  color: grey;
+}
+
+header, section, footer {
+  padding: 30px;
+}
+
+section {
+  border: 1px solid gainsboro;
+  background-color: white;
+  margin: 30px;
+  padding: 30px;
+  width: 50%;
+}
+
+img {
+  width: 300px;
+  height:200px;
+}
+
+  * p {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+  }
+
+.title {
+  font-size: 75px;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 150px;
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+}
